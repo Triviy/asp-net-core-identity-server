@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{451A73AC-41D3-451E-BC5A-741526308E1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{9DFF19D1-8E37-40FE-BB21-C31DC8873516}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{451A73AC-41D3-451E-BC5A-741526308E1A}.Release|x64.Build.0 = Release|Any CPU
 		{451A73AC-41D3-451E-BC5A-741526308E1A}.Release|x86.ActiveCfg = Release|Any CPU
 		{451A73AC-41D3-451E-BC5A-741526308E1A}.Release|x86.Build.0 = Release|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Debug|x64.Build.0 = Debug|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Debug|x86.Build.0 = Debug|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Release|x64.ActiveCfg = Release|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Release|x64.Build.0 = Release|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Release|x86.ActiveCfg = Release|Any CPU
+		{9DFF19D1-8E37-40FE-BB21-C31DC8873516}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

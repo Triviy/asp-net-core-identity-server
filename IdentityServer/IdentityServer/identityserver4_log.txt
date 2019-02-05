@@ -37,3 +37,17 @@
 2019-02-05 13:43:07.618 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
 2019-02-05 13:43:07.618 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
 2019-02-05 13:43:07.618 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-05 14:47:53.486 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-05 14:47:53.533 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-05 14:47:53.536 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-05 14:47:53.536 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-05 14:47:53.536 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-05 14:47:53.536 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-05 14:47:53.536 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-05 14:48:00.061 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-05 14:48:00.095 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-05 14:48:00.097 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-05 14:48:00.098 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-05 14:48:00.098 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-05 14:48:00.098 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-05 14:48:00.098 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
