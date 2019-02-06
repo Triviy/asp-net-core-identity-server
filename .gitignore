@@ -113,4 +113,6 @@ _TeamCity*
 # DotCover is a Code Coverage Tool
 *.dotCover
 
+# Log files
+*_log.txt
 */.localhistory/*
