@@ -2051,3 +2051,278 @@
 2019-02-07 14:28:08.380 +02:00 [INF] Successful signout callback.
 2019-02-07 14:28:08.380 +02:00 [DBG] No client front-channel iframe urls
 2019-02-07 14:28:08.380 +02:00 [DBG] No client back-channel iframe urls
+2019-02-07 16:03:25.689 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-07 16:03:25.723 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-07 16:03:25.723 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-07 16:03:25.723 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-07 16:03:25.723 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-07 16:03:25.723 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-07 16:03:25.878 +02:00 [DBG] Starting grant removal
+2019-02-07 16:04:39.391 +02:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5003
+2019-02-07 16:04:39.453 +02:00 [DBG] Origin http://localhost:5003 is allowed: true
+2019-02-07 16:04:39.457 +02:00 [DBG] CorsPolicyService allowed origin: http://localhost:5003
+2019-02-07 16:04:39.570 +02:00 [DBG] Login Url: /Account/Login
+2019-02-07 16:04:39.570 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-07 16:04:39.570 +02:00 [DBG] Logout Url: /Account/Logout
+2019-02-07 16:04:39.570 +02:00 [DBG] ConsentUrl Url: /consent
+2019-02-07 16:04:39.570 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-07 16:04:39.571 +02:00 [DBG] Error Url: /home/error
+2019-02-07 16:04:39.571 +02:00 [DBG] Error Id Parameter: errorId
+2019-02-07 16:04:39.593 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-07 16:04:39.597 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-07 16:04:39.597 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-07 16:04:39.601 +02:00 [DBG] Start discovery request
+2019-02-07 16:04:39.813 +02:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2019-02-07 16:04:39.890 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-02-07 16:04:39.896 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-02-07 16:04:39.896 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-02-07 16:04:39.901 +02:00 [DBG] Start authorize request
+2019-02-07 16:04:39.913 +02:00 [DBG] No user present in authorize request
+2019-02-07 16:04:39.919 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:40.132 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:40.139 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:40.145 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:40.211 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:40.347 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:40.359 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:40.362 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:40.372 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:40.389 +02:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"js","ClientName":"JavaScript Client","RedirectUri":"http://localhost:5003/callback.html","AllowedRedirectUris":["http://localhost:5003/callback.html"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile api1","State":"2d43f36d779f4ed4b73128a233064c95","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"js","redirect_uri":"http://localhost:5003/callback.html","response_type":"code","scope":"openid profile api1","state":"2d43f36d779f4ed4b73128a233064c95","code_challenge":"8EuE-DB6z2D6HIH8b3_ldvk6D26KyINOUFNk7O9KG8o","code_challenge_method":"S256"},"$type":"AuthorizeRequestValidationLog"}
+2019-02-07 16:04:40.406 +02:00 [INF] Showing login: User is not authenticated
+2019-02-07 16:04:40.770 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:40.776 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:40.776 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:40.776 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:40.780 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:40.783 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:40.785 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:40.788 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:40.789 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:40.795 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:40.795 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:42.586 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-02-07 16:04:42.643 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:42.648 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:42.648 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:42.648 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:42.650 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.656 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:42.658 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.661 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:42.662 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:42.682 +02:00 [DBG] Augmenting SignInContext
+2019-02-07 16:04:42.686 +02:00 [DBG] Adding idp claim with value: local
+2019-02-07 16:04:42.687 +02:00 [DBG] Adding amr claim with value: pwd
+2019-02-07 16:04:42.708 +02:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-02-07 16:04:42.720 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:42.720 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:42.755 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-02-07 16:04:42.756 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-02-07 16:04:42.757 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-02-07 16:04:42.762 +02:00 [DBG] Start authorize callback request
+2019-02-07 16:04:42.769 +02:00 [DBG] User in authorize request: 1
+2019-02-07 16:04:42.769 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:42.775 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:42.775 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:42.775 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:42.777 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.780 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:42.782 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.787 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:42.787 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:42.787 +02:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"js","ClientName":"JavaScript Client","RedirectUri":"http://localhost:5003/callback.html","AllowedRedirectUris":["http://localhost:5003/callback.html"],"SubjectId":"1","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile api1","State":"2d43f36d779f4ed4b73128a233064c95","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"80276fa3b6624fce0fd44cb22771908a","Raw":{"client_id":"js","redirect_uri":"http://localhost:5003/callback.html","response_type":"code","scope":"openid profile api1","state":"2d43f36d779f4ed4b73128a233064c95","code_challenge":"8EuE-DB6z2D6HIH8b3_ldvk6D26KyINOUFNk7O9KG8o","code_challenge_method":"S256"},"$type":"AuthorizeRequestValidationLog"}
+2019-02-07 16:04:42.789 +02:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-02-07 16:04:42.816 +02:00 [DBG] BySjdvv4GBgV8WliEeTNDX9VVXYbZaV8EcrCFaY8rnM= found in database: false
+2019-02-07 16:04:42.817 +02:00 [DBG] user_consent grant with value: js|1 not found in store.
+2019-02-07 16:04:42.817 +02:00 [DBG] Found no prior consent from consent store, consent is required
+2019-02-07 16:04:42.817 +02:00 [INF] Showing consent: User has not yet consented
+2019-02-07 16:04:42.850 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:42.854 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:42.854 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:42.854 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:42.857 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.860 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:42.862 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.865 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:42.865 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:42.869 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:42.869 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:42.871 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:42.875 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:44.542 +02:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-02-07 16:04:44.563 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:44.570 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:44.570 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:44.570 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:44.572 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:44.577 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:44.579 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:44.582 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:44.583 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:44.611 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:44.611 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:44.684 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-02-07 16:04:44.685 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-02-07 16:04:44.685 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-02-07 16:04:44.685 +02:00 [DBG] Start authorize callback request
+2019-02-07 16:04:44.693 +02:00 [DBG] User in authorize request: 1
+2019-02-07 16:04:44.693 +02:00 [DBG] Start authorize request protocol validation
+2019-02-07 16:04:44.701 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:44.702 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:44.702 +02:00 [DBG] Checking for PKCE parameters
+2019-02-07 16:04:44.705 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:44.709 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:44.711 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:44.715 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:44.715 +02:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-02-07 16:04:44.715 +02:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"js","ClientName":"JavaScript Client","RedirectUri":"http://localhost:5003/callback.html","AllowedRedirectUris":["http://localhost:5003/callback.html"],"SubjectId":"1","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid profile api1","State":"2d43f36d779f4ed4b73128a233064c95","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"80276fa3b6624fce0fd44cb22771908a","Raw":{"client_id":"js","redirect_uri":"http://localhost:5003/callback.html","response_type":"code","scope":"openid profile api1","state":"2d43f36d779f4ed4b73128a233064c95","code_challenge":"8EuE-DB6z2D6HIH8b3_ldvk6D26KyINOUFNk7O9KG8o","code_challenge_method":"S256"},"$type":"AuthorizeRequestValidationLog"}
+2019-02-07 16:04:44.715 +02:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-02-07 16:04:44.717 +02:00 [DBG] BySjdvv4GBgV8WliEeTNDX9VVXYbZaV8EcrCFaY8rnM= found in database: false
+2019-02-07 16:04:44.717 +02:00 [DBG] user_consent grant with value: js|1 not found in store.
+2019-02-07 16:04:44.717 +02:00 [DBG] Found no prior consent from consent store, consent is required
+2019-02-07 16:04:44.723 +02:00 [INF] User consented to scopes: ["openid","profile","api1"]
+2019-02-07 16:04:44.724 +02:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","api1"]
+2019-02-07 16:04:44.728 +02:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 1
+2019-02-07 16:04:44.749 +02:00 [DBG] BySjdvv4GBgV8WliEeTNDX9VVXYbZaV8EcrCFaY8rnM= not found in database
+2019-02-07 16:04:44.779 +02:00 [DBG] Creating Authorization Code Flow response.
+2019-02-07 16:04:44.799 +02:00 [DBG] rb9NGSNHXOndSIagosf1cvu9yp4WCyXdgR+Q5QdOJcY= not found in database
+2019-02-07 16:04:44.808 +02:00 [INF] Authorize endpoint response
+{"SubjectId":"1","ClientId":"js","RedirectUri":"http://localhost:5003/callback.html","State":"2d43f36d779f4ed4b73128a233064c95","Scope":"openid profile api1","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-02-07 16:04:44.828 +02:00 [DBG] Augmenting SignInContext
+2019-02-07 16:04:44.829 +02:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-02-07 16:04:44.947 +02:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5003
+2019-02-07 16:04:44.953 +02:00 [DBG] Origin http://localhost:5003 is allowed: true
+2019-02-07 16:04:44.953 +02:00 [DBG] CorsPolicyService allowed origin: http://localhost:5003
+2019-02-07 16:04:44.953 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-07 16:04:44.953 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-07 16:04:44.953 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-07 16:04:44.953 +02:00 [DBG] Start discovery request
+2019-02-07 16:04:44.972 +02:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2019-02-07 16:04:44.983 +02:00 [DBG] CORS request made for path: /connect/token from origin: http://localhost:5003
+2019-02-07 16:04:44.985 +02:00 [DBG] Origin http://localhost:5003 is allowed: true
+2019-02-07 16:04:44.985 +02:00 [DBG] CorsPolicyService allowed origin: http://localhost:5003
+2019-02-07 16:04:44.985 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-07 16:04:44.991 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-07 16:04:44.991 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-07 16:04:44.998 +02:00 [DBG] Start token request.
+2019-02-07 16:04:45.004 +02:00 [DBG] Start client validation
+2019-02-07 16:04:45.010 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-02-07 16:04:45.013 +02:00 [DBG] Start parsing for secret in post body
+2019-02-07 16:04:45.015 +02:00 [DBG] client id without secret found
+2019-02-07 16:04:45.015 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-07 16:04:45.015 +02:00 [DBG] Secret id found: js
+2019-02-07 16:04:45.022 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:45.022 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:45.022 +02:00 [DBG] Public Client - skipping secret validation success
+2019-02-07 16:04:45.022 +02:00 [DBG] Client validation success
+2019-02-07 16:04:45.028 +02:00 [DBG] Start token request validation
+2019-02-07 16:04:45.039 +02:00 [DBG] Start validation of authorization code token request
+2019-02-07 16:04:45.046 +02:00 [DBG] rb9NGSNHXOndSIagosf1cvu9yp4WCyXdgR+Q5QdOJcY= found in database: true
+2019-02-07 16:04:45.068 +02:00 [DBG] removing rb9NGSNHXOndSIagosf1cvu9yp4WCyXdgR+Q5QdOJcY= persisted grant from database
+2019-02-07 16:04:45.073 +02:00 [DBG] Client required a proof key for code exchange. Starting PKCE validation
+2019-02-07 16:04:45.075 +02:00 [DBG] IsActive called from: AuthorizationCodeValidation
+2019-02-07 16:04:45.076 +02:00 [DBG] Validation of authorization code token request success
+2019-02-07 16:04:45.077 +02:00 [INF] Token request validation success
+{"ClientId":"js","ClientName":"JavaScript Client","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"5333dd1cac667138cc3152e44417ec64410862b5d79a49764c6837eba3e73324","RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"js","code":"5333dd1cac667138cc3152e44417ec64410862b5d79a49764c6837eba3e73324","redirect_uri":"http://localhost:5003/callback.html","code_verifier":"d5d935d262dc4db3b29148d16b83afdcec12bc8859a64c079be2f75e3e3e27765398d96a8970482397e9999b1d583e2c","grant_type":"authorization_code"},"$type":"TokenRequestValidationLog"}
+2019-02-07 16:04:45.096 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:45.097 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:45.098 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:45.102 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:45.113 +02:00 [DBG] Getting claims for access token for client: js
+2019-02-07 16:04:45.114 +02:00 [DBG] Getting claims for access token for subject: 1
+2019-02-07 16:04:45.118 +02:00 [DBG] Get profile called for subject 1 from client JavaScript Client with claim types [] via ClaimsProviderAccessToken
+2019-02-07 16:04:45.119 +02:00 [DBG] Issued claims: []
+2019-02-07 16:04:45.206 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:45.206 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:45.208 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:45.210 +02:00 [DBG] Found ["api1"] API scopes in database
+2019-02-07 16:04:45.219 +02:00 [DBG] Getting claims for identity token for subject: 1 and client: js
+2019-02-07 16:04:45.220 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-02-07 16:04:45.225 +02:00 [DBG] Token request success.
+2019-02-07 16:04:45.246 +02:00 [DBG] CORS request made for path: /connect/userinfo from origin: http://localhost:5003
+2019-02-07 16:04:45.247 +02:00 [DBG] Origin http://localhost:5003 is allowed: true
+2019-02-07 16:04:45.247 +02:00 [DBG] CorsPolicyService allowed origin: http://localhost:5003
+2019-02-07 16:04:45.259 +02:00 [DBG] CORS request made for path: /connect/userinfo from origin: http://localhost:5003
+2019-02-07 16:04:45.260 +02:00 [DBG] Origin http://localhost:5003 is allowed: true
+2019-02-07 16:04:45.260 +02:00 [DBG] CorsPolicyService allowed origin: http://localhost:5003
+2019-02-07 16:04:45.260 +02:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2019-02-07 16:04:45.262 +02:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint
+2019-02-07 16:04:45.262 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2019-02-07 16:04:45.268 +02:00 [DBG] Start userinfo request
+2019-02-07 16:04:45.272 +02:00 [DBG] Bearer token found in header
+2019-02-07 16:04:45.334 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:45.334 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:45.341 +02:00 [DBG] js found in database: true
+2019-02-07 16:04:45.341 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:04:45.342 +02:00 [DBG] IsActive called from: AccessTokenValidation
+2019-02-07 16:04:45.342 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-02-07 16:04:45.343 +02:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":null,"Claims":{"nbf":1549548285,"exp":1549551885,"iss":"http://localhost:5000","aud":["http://localhost:5000/resources","api1"],"client_id":"js","sub":"1","auth_time":1549548282,"idp":"local","scope":["openid","profile","api1"],"amr":"pwd"},"$type":"TokenValidationLog"}
+2019-02-07 16:04:45.345 +02:00 [DBG] IsActive called from: UserInfoRequestValidation
+2019-02-07 16:04:45.350 +02:00 [DBG] Creating userinfo response
+2019-02-07 16:04:45.354 +02:00 [DBG] Scopes in access token: openid profile api1
+2019-02-07 16:04:45.357 +02:00 [DBG] Scopes in access token: openid profile api1
+2019-02-07 16:04:45.361 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:45.362 +02:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at
+2019-02-07 16:04:45.362 +02:00 [DBG] Scopes in access token: openid profile api1
+2019-02-07 16:04:45.364 +02:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-02-07 16:04:45.364 +02:00 [DBG] Get profile called for subject 1 from client JavaScript Client with claim types ["sub","name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via UserInfoEndpoint
+2019-02-07 16:04:45.365 +02:00 [DBG] Issued claims: []
+2019-02-07 16:04:45.365 +02:00 [INF] Profile service returned the following claim types: 
+2019-02-07 16:04:45.365 +02:00 [DBG] End userinfo request
+2019-02-07 16:04:45.392 +02:00 [DBG] Request path /connect/checksession matched to endpoint type Checksession
+2019-02-07 16:04:45.392 +02:00 [DBG] Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint
+2019-02-07 16:04:45.392 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+2019-02-07 16:04:45.394 +02:00 [DBG] Rendering check session result
+2019-02-07 16:04:45.439 +02:00 [DBG] CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5003
+2019-02-07 16:04:45.441 +02:00 [DBG] Origin http://localhost:5003 is allowed: true
+2019-02-07 16:04:45.441 +02:00 [DBG] CorsPolicyService allowed origin: http://localhost:5003
+2019-02-07 16:04:45.441 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-07 16:04:45.441 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-07 16:04:45.441 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-07 16:04:45.441 +02:00 [DBG] Start discovery request
+2019-02-07 16:04:45.499 +02:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2019-02-07 16:04:45.524 +02:00 [DBG] Request path /connect/checksession matched to endpoint type Checksession
+2019-02-07 16:04:45.524 +02:00 [DBG] Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint
+2019-02-07 16:04:45.524 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+2019-02-07 16:04:45.524 +02:00 [DBG] Rendering check session result
+2019-02-07 16:05:36.175 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-07 16:05:36.175 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-07 16:05:36.175 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-07 16:05:36.175 +02:00 [DBG] Start discovery request
+2019-02-07 16:05:36.182 +02:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2019-02-07 16:05:36.319 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-07 16:05:36.320 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-07 16:05:36.320 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-07 16:05:36.324 +02:00 [DBG] Start key discovery request
+2019-02-07 16:05:38.024 +02:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-02-07 16:05:38.026 +02:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-02-07 16:05:38.026 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-02-07 16:05:38.037 +02:00 [DBG] Processing signout request for 1
+2019-02-07 16:05:38.045 +02:00 [DBG] Start end session request validation
+2019-02-07 16:05:38.052 +02:00 [DBG] Start identity token validation
+2019-02-07 16:05:38.059 +02:00 [DBG] js found in database: true
+2019-02-07 16:05:38.059 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:05:38.059 +02:00 [DBG] Client found: js / JavaScript Client
+2019-02-07 16:05:38.061 +02:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-02-07 16:05:38.061 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-02-07 16:05:38.062 +02:00 [DBG] Token validation success
+{"ClientId":"js","ClientName":"JavaScript Client","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1549548285,"exp":1549548585,"iss":"http://localhost:5000","aud":"js","iat":1549548285,"at_hash":"vWiTdvYoPPYu3zvlHd9RcA","sid":"80276fa3b6624fce0fd44cb22771908a","sub":"1","auth_time":1549548282,"idp":"local","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-02-07 16:05:38.065 +02:00 [INF] End session request validation success
+{"ClientId":"js","ClientName":"JavaScript Client","SubjectId":"1","PostLogOutUri":"http://localhost:5003/index.html","State":null,"Raw":{"id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNTlkYTZiYjk3YThhYWUyYjcwMGU5MTkyYWNiNzc0IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDk1NDgyODUsImV4cCI6MTU0OTU0ODU4NSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoianMiLCJpYXQiOjE1NDk1NDgyODUsImF0X2hhc2giOiJ2V2lUZHZZb1BQWXUzenZsSGQ5UmNBIiwic2lkIjoiODAyNzZmYTNiNjYyNGZjZTBmZDQ0Y2IyMjc3MTkwOGEiLCJzdWIiOiIxIiwiYXV0aF90aW1lIjoxNTQ5NTQ4MjgyLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.UFgCvNgDyOUeney5EE4QrQPslqn7asiHRwjqs2CBUQ8RmYUOM4m4kP8_HMJnAJyY7T8VUMSvVvA66x9MBh8-XW16fpFrCwNOUi0DgrTRSjgHWq88rW4BHboX4oXzRpJSgy7YqoeLFZALDLjQlRJYe4WPJH1bjwEp-viIoO3pF1lvrFedznH0IQWB95DH0uitVDIcnAQtWuAB6EHTxp9W1Yy81C-zfdDE9PhK8ijxAceQzHn7RmXMAveygmPVXoNrHdhomvYFRWTmzpZHy1ue_SysiF9Q02hrvLFulv3NUDxKS-DGEy6WMmcckMNh5e6tbGlMS2CRm8V35rR5ncF7Ug","post_logout_redirect_uri":"http://localhost:5003/index.html"},"$type":"EndSessionRequestValidationLog"}
+2019-02-07 16:05:38.065 +02:00 [DBG] Success validating end session request from js
+2019-02-07 16:05:38.125 +02:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-02-07 16:05:38.172 +02:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-02-07 16:05:38.176 +02:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-02-07 16:05:38.176 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-02-07 16:05:38.182 +02:00 [DBG] Processing signout callback request
+2019-02-07 16:05:38.200 +02:00 [DBG] js found in database: true
+2019-02-07 16:05:38.200 +02:00 [DBG] client configuration validation for client js succeeded.
+2019-02-07 16:05:38.201 +02:00 [DBG] No client front-channel logout URLs
+2019-02-07 16:05:38.201 +02:00 [DBG] No client back-channel logout URLs
+2019-02-07 16:05:38.201 +02:00 [INF] Successful signout callback.
+2019-02-07 16:05:38.201 +02:00 [DBG] No client front-channel iframe urls
+2019-02-07 16:05:38.201 +02:00 [DBG] No client back-channel iframe urls
